@@ -218,7 +218,6 @@
             this.txtthanhtien.ReadOnly = true;
             this.txtthanhtien.Size = new System.Drawing.Size(124, 20);
             this.txtthanhtien.TabIndex = 25;
-            this.txtthanhtien.TextChanged += new System.EventHandler(this.btnthemHD_Click);
             // 
             // label12
             // 

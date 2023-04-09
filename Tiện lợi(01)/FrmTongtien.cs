@@ -21,7 +21,7 @@ namespace Tiện_lợi_01_
         {
 
         }
-        public void XoaDulieuform()
+        private void XoaDulieuform()
         {
             txtdongia.Text = "";
             txtgiamgia.Text = "";

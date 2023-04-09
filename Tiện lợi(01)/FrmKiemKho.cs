@@ -16,7 +16,7 @@ namespace Tiện_lợi_01_
         {
             InitializeComponent();
         }
-        public void Xoadulieuform()
+        private void Xoadulieuform()
         {
             txtdongiaban.Text = "";
             txtdongianhap.Text = "";

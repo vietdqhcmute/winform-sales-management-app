@@ -16,7 +16,7 @@ namespace Tiện_lợi_01_
         {
             InitializeComponent();
         }
-        public void XoaDulieuform()
+        private void XoaDulieuform()
         {
             txtdongia.Text = "";
             txtgiamgia.Text = "";
@@ -28,11 +28,20 @@ namespace Tiện_lợi_01_
             txtTenhang.Text = "";
             txtsoluong.Text = "";
         }
+
         private void btnthemHD_Click(object sender, EventArgs e)
         {
-            float soluong, thanhtien, dongia;
+            float soluong, thanhtien;
             soluong = int.Parse(txtsoluong.Text);
-            dongia = float.Parse(txtdongia.Text);
+
+            float dongia;
+            if (float.TryParse(txtdongia.Text, out dongia)) {
+                dongia = float.Parse(txtdongia.Text);
+            }
+            else
+            {
+                dongia = 0;
+            }
 
             if (soluong > 10 && soluong <= 15)
             {
@@ -76,7 +85,7 @@ namespace Tiện_lợi_01_
                  txtTenhang.Text,txtsoluong.Text, txtgiamgia.Text, 
                 txtdongia.Text, txtthanhtien.Text});
             lvHoaDon.Items.Add( itemHoaDonBan );
-            //XoaDulieuform();
+            XoaDulieuform();
             MessageBox.Show("Thêm thành công");
 
         }
@@ -99,10 +108,6 @@ namespace Tiện_lợi_01_
             txtgiamgia.Text = item.SubItems[6].Text;
             txtdongia.Text = item.SubItems[7].Text;
             txtthanhtien.Text = item.SubItems[8].Text;
-            
-           
-           
-
         }
 
         private void btnSuaHD_Click(object sender, EventArgs e)
@@ -112,7 +117,6 @@ namespace Tiện_lợi_01_
             {
                 if (lvHoaDon.Items[i].Text == dtpickerngayban.Text)
                 {
-                    
                     lvHoaDon.Items[i].SubItems[1].Text = txtTenNhanvien.Text;
                     lvHoaDon.Items[i].SubItems[2].Text = txttenkhachhang.Text;
                     lvHoaDon.Items[i].SubItems[3].Text = msdsdt.Text;
