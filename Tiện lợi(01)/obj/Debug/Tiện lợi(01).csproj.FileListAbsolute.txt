@@ -1,0 +1,14 @@
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\bin\Debug\Tiện lợi(01).exe.config
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\bin\Debug\Tiện lợi(01).exe
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\bin\Debug\Tiện lợi(01).pdb
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).csproj.AssemblyReference.cache
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).csproj.SuggestedBindingRedirects.cache
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.Form1.resources
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmHDBanHang.resources
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmKiemKho.resources
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.Properties.Resources.resources
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).csproj.GenerateResource.cache
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).csproj.CoreCompileInputs.cache
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).exe
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện lợi(01).pdb
+C:\Users\onhocuavy\source\repos\Tiện lợi(01)\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmDangNhap.resources
