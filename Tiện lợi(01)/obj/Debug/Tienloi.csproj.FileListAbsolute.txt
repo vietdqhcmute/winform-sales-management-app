@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\bin\Debug\Tiện lợi(01).exe.config
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\bin\Debug\Tiện lợi(01).exe
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\bin\Debug\Tiện lợi(01).pdb
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tienloi.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tienloi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.Form1.resources
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmDangNhap.resources
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmHDBanHang.resources
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.FrmKiemKho.resources
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện_lợi_01_.Properties.Resources.resources
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tienloi.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tienloi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện lợi(01).exe
+C:\Users\Administrator\Desktop\winform-sales-management-app\Tiện lợi(01)\obj\Debug\Tiện lợi(01).pdb

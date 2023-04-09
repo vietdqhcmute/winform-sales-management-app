@@ -27,15 +27,12 @@ namespace Tiện_lợi_01_
             dtpickerngayban.Value = DateTime.Now;
             txtTenhang.Text = "";
             txtsoluong.Text = "";
-            
-            
-                        }
+        }
         private void btnthemHD_Click(object sender, EventArgs e)
         {
-            float soluong, thanhtien;
-            soluong = float.Parse(txtsoluong.Text);
-           
-           float dongia = float.Parse(txtdongia.Text);
+            float soluong, thanhtien, dongia;
+            soluong = int.Parse(txtsoluong.Text);
+            dongia = float.Parse(txtdongia.Text);
 
             if (soluong > 10 && soluong <= 15)
             {
@@ -61,15 +58,25 @@ namespace Tiện_lợi_01_
                 txtgiamgia.Text = "0";
                 txtthanhtien.Text = thanhtien.ToString();
             }
-            txttotal.Text += thanhtien.ToString();
+
+
+            float curentTotal;
+            if (float.TryParse(txttotal.Text, out curentTotal))
+            {
+                txttotal.Text = (curentTotal + thanhtien).ToString();
+            }
+            else
+            {
+                txttotal.Text = (0 + thanhtien).ToString();
+            }
 
             ListViewItem itemHoaDonBan = new System.Windows.Forms.ListViewItem(new string[]
             { dtpickerngayban.Text,txtTenNhanvien.Text, 
                  txttenkhachhang.Text, msdsdt.Text,
                  txtTenhang.Text,txtsoluong.Text, txtgiamgia.Text, 
                 txtdongia.Text, txtthanhtien.Text});
-            lvHoaDon.Items.AddRange(new System.Windows.Forms.ListViewItem[] { itemHoaDonBan });
-            XoaDulieuform();
+            lvHoaDon.Items.Add( itemHoaDonBan );
+            //XoaDulieuform();
             MessageBox.Show("Thêm thành công");
 
         }
