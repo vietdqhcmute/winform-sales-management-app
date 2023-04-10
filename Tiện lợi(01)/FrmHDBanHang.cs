@@ -46,25 +46,29 @@ namespace Tiện_lợi_01_
             if (soluong > 10 && soluong <= 15)
             {
                 thanhtien = (soluong * dongia) - ((soluong * dongia) * 5 / 100);
-                txtgiamgia.Text = "0";
                 txtthanhtien.Text = thanhtien.ToString();
             }
             else if (soluong > 5 && soluong <= 10)
             {
                 thanhtien = (soluong * dongia) - ((soluong * dongia) * 3 / 100);
-                txtgiamgia.Text = "0";
                 txtthanhtien.Text = thanhtien.ToString();
             }
             else if (soluong > 15)
             {
                 thanhtien = (soluong * dongia) - ((soluong * dongia) * 10 / 100);
-                txtgiamgia.Text = "0";
                 txtthanhtien.Text = thanhtien.ToString();
             }
             else
             {
-                thanhtien = soluong * dongia;
-                txtgiamgia.Text = "0";
+                float currentDiscountPercentage;
+                if(float.TryParse(txtgiamgia.Text, out currentDiscountPercentage))
+                {
+                    thanhtien = soluong * (dongia - (dongia * currentDiscountPercentage)/100);
+                }
+                else
+                {
+                    thanhtien = soluong * dongia;
+                }
                 txtthanhtien.Text = thanhtien.ToString();
             }
 
@@ -202,6 +206,11 @@ namespace Tiện_lợi_01_
         private void txttotal_TextChanged(object sender, EventArgs e)
         {
             
+
+        }
+
+        private void txtgiamgia_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

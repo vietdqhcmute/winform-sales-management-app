@@ -41,6 +41,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.txtsoluong = new System.Windows.Forms.TextBox();
+            this.txtgiamgia = new System.Windows.Forms.TextBox();
+            this.txtdongia = new System.Windows.Forms.TextBox();
             this.txtthanhtien = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -71,9 +74,6 @@
             this.txttotal = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.txtdongia = new System.Windows.Forms.TextBox();
-            this.txtgiamgia = new System.Windows.Forms.TextBox();
-            this.txtsoluong = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -210,6 +210,28 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(688, 64);
             this.panel6.TabIndex = 4;
+            // 
+            // txtsoluong
+            // 
+            this.txtsoluong.Location = new System.Drawing.Point(99, 35);
+            this.txtsoluong.Name = "txtsoluong";
+            this.txtsoluong.Size = new System.Drawing.Size(100, 20);
+            this.txtsoluong.TabIndex = 28;
+            // 
+            // txtgiamgia
+            // 
+            this.txtgiamgia.Location = new System.Drawing.Point(568, 10);
+            this.txtgiamgia.Name = "txtgiamgia";
+            this.txtgiamgia.Size = new System.Drawing.Size(100, 20);
+            this.txtgiamgia.TabIndex = 27;
+            this.txtgiamgia.TextChanged += new System.EventHandler(this.txtgiamgia_TextChanged);
+            // 
+            // txtdongia
+            // 
+            this.txtdongia.Location = new System.Drawing.Point(326, 6);
+            this.txtdongia.Name = "txtdongia";
+            this.txtdongia.Size = new System.Drawing.Size(119, 20);
+            this.txtdongia.TabIndex = 26;
             // 
             // txtthanhtien
             // 
@@ -518,27 +540,6 @@
             this.label17.Size = new System.Drawing.Size(138, 13);
             this.label17.TabIndex = 39;
             this.label17.Text = "Nhấn đúp một dòng để xóa";
-            // 
-            // txtdongia
-            // 
-            this.txtdongia.Location = new System.Drawing.Point(326, 6);
-            this.txtdongia.Name = "txtdongia";
-            this.txtdongia.Size = new System.Drawing.Size(119, 20);
-            this.txtdongia.TabIndex = 26;
-            // 
-            // txtgiamgia
-            // 
-            this.txtgiamgia.Location = new System.Drawing.Point(568, 10);
-            this.txtgiamgia.Name = "txtgiamgia";
-            this.txtgiamgia.Size = new System.Drawing.Size(100, 20);
-            this.txtgiamgia.TabIndex = 27;
-            // 
-            // txtsoluong
-            // 
-            this.txtsoluong.Location = new System.Drawing.Point(99, 35);
-            this.txtsoluong.Name = "txtsoluong";
-            this.txtsoluong.Size = new System.Drawing.Size(100, 20);
-            this.txtsoluong.TabIndex = 28;
             // 
             // FrmHDBanHang
             // 
