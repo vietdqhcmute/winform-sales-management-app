@@ -400,6 +400,7 @@
             this.btnluuHD.Text = "&Lưu ";
             this.btnluuHD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnluuHD.UseVisualStyleBackColor = true;
+            this.btnluuHD.Click += new System.EventHandler(this.btnluuHD_Click);
             // 
             // btnhuyHD
             // 
@@ -509,6 +510,7 @@
             this.btnThanhToan.Text = "&ThanhToán ";
             this.btnThanhToan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThanhToan.UseVisualStyleBackColor = true;
+            this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
             // txttotal
             // 

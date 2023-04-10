@@ -31,8 +31,17 @@ namespace Tiện_lợi_01_
 
         private void btnthemHD_Click(object sender, EventArgs e)
         {
-            float soluong, thanhtien;
-            soluong = int.Parse(txtsoluong.Text);
+            int soluong;
+            float thanhtien;
+            if (int.TryParse(txtsoluong.Text, out soluong))
+            {
+                soluong = int.Parse(txtsoluong.Text);
+
+            }
+            else
+            {
+                soluong = 1;
+            }
 
             float dongia;
             if (float.TryParse(txtdongia.Text, out dongia)) {
@@ -210,6 +219,28 @@ namespace Tiện_lợi_01_
         }
 
         private void txtgiamgia_TextChanged(object sender, EventArgs e)
+        {
+            float currentDiscount;
+            if(float.TryParse(txtgiamgia.Text, out currentDiscount)){
+                if(currentDiscount > 100 || currentDiscount < 0)
+                {
+                    MessageBox.Show("Discount invalid");
+                    txtgiamgia.Text = "0";
+                }
+            }
+            else
+            {
+
+            }
+
+        }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnluuHD_Click(object sender, EventArgs e)
         {
 
         }

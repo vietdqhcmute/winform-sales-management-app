@@ -15,6 +15,9 @@ namespace Tiện_lợi_01_
         public Form1()
         {
             InitializeComponent();
+            FrmDangNhap frm = new FrmDangNhap();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void mnuHoaDon_Click(object sender, EventArgs e)
