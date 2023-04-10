@@ -147,32 +147,9 @@ namespace Tiện_lợi_01_
             MessageBox.Show("Cập nhật thành công");
         }
 
-        private void btnhuyHD_Click(object sender, EventArgs e)
-        {
-            string maHDBan = txtTenNhanvien.Text.Trim();
-            if ( maHDBan == "")
-            {
-                MessageBox.Show("Bạn chưa chọn dòng thông tin cần xóa");
-            }
-            else
-            {
-                foreach ( ListViewItem it in lvHoaDon.Items)
-                {
-                    if (it.SubItems[0].Text == maHDBan)
-                    {
-                        it.Remove();
-                        MessageBox.Show("Xóa thành công");
-                        XoaDulieuform();
-                        return;
-                    }
-                }
-            }
-            
-            txtTenNhanvien.Enabled = true;
-        }
-
         private void btndong_Click(object sender, EventArgs e)
         {
+            this.Close();
             XoaDulieuform();
         }
 
@@ -181,7 +158,7 @@ namespace Tiện_lợi_01_
             string output;
             for ( int i = 0; i< lvHoaDon.Items.Count; i++)
             {
-                if (lvHoaDon.Items[i].SubItems[0].Text.ToString()== msdsdt.Text.ToString())
+                if (lvHoaDon.Items[i].SubItems[3].Text.ToString()== msdsdt.Text.ToString())
                 {
                     output = "Hóa Đơn bạn cần tìm : " + "\n" +
                         "Thông tin Hóa Đơn bạn cần tìm " + "\n"
@@ -189,7 +166,7 @@ namespace Tiện_lợi_01_
                         + "\n" + " Tên Nv " + lvHoaDon.Items[i].SubItems[1].Text.ToString()
                         + "\n" + "Tên KH" + lvHoaDon.Items[i].SubItems[2].Text.ToString()
                         +"\n" + "SDT" + lvHoaDon.Items[i].SubItems[3].Text.ToString()
-                        + "\n" + "Thành tiền" + lvHoaDon.Items[i].SubItems[9].Text.ToString();
+                        + "\n" + "Thành tiền" + lvHoaDon.Items[i].SubItems[8].Text.ToString();
                     MessageBox.Show(output, "Thông báo");
                 }
                 else
@@ -210,6 +187,7 @@ namespace Tiện_lợi_01_
         private void btnclose_Click(object sender, EventArgs e)
         {
             XoaDulieuform();
+
         }
 
         private void txttotal_TextChanged(object sender, EventArgs e)
@@ -232,16 +210,6 @@ namespace Tiện_lợi_01_
             {
 
             }
-
-        }
-
-        private void btnThanhToan_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnluuHD_Click(object sender, EventArgs e)
-        {
 
         }
     }

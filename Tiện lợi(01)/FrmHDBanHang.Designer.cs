@@ -57,8 +57,6 @@
             this.btntimkiemHD = new System.Windows.Forms.Button();
             this.btnSuaHD = new System.Windows.Forms.Button();
             this.btndong = new System.Windows.Forms.Button();
-            this.btnluuHD = new System.Windows.Forms.Button();
-            this.btnhuyHD = new System.Windows.Forms.Button();
             this.lvHoaDon = new System.Windows.Forms.ListView();
             this.clNgayban = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clTenNhanvien = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -70,7 +68,6 @@
             this.clDongia = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clThanhtien = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnThanhToan = new System.Windows.Forms.Button();
             this.txttotal = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -310,8 +307,6 @@
             this.panel9.Controls.Add(this.btntimkiemHD);
             this.panel9.Controls.Add(this.btnSuaHD);
             this.panel9.Controls.Add(this.btndong);
-            this.panel9.Controls.Add(this.btnluuHD);
-            this.panel9.Controls.Add(this.btnhuyHD);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel9.Location = new System.Drawing.Point(0, 387);
             this.panel9.Name = "panel9";
@@ -388,34 +383,6 @@
             this.btndong.UseVisualStyleBackColor = true;
             this.btndong.Click += new System.EventHandler(this.btndong_Click);
             // 
-            // btnluuHD
-            // 
-            this.btnluuHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnluuHD.Image = global::Tiện_lợi_01_.Properties.Resources.Save_37110;
-            this.btnluuHD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnluuHD.Location = new System.Drawing.Point(241, 9);
-            this.btnluuHD.Name = "btnluuHD";
-            this.btnluuHD.Size = new System.Drawing.Size(86, 29);
-            this.btnluuHD.TabIndex = 11;
-            this.btnluuHD.Text = "&Lưu ";
-            this.btnluuHD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnluuHD.UseVisualStyleBackColor = true;
-            this.btnluuHD.Click += new System.EventHandler(this.btnluuHD_Click);
-            // 
-            // btnhuyHD
-            // 
-            this.btnhuyHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnhuyHD.Image = global::Tiện_lợi_01_.Properties.Resources.bin;
-            this.btnhuyHD.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnhuyHD.Location = new System.Drawing.Point(356, 10);
-            this.btnhuyHD.Name = "btnhuyHD";
-            this.btnhuyHD.Size = new System.Drawing.Size(86, 29);
-            this.btnhuyHD.TabIndex = 12;
-            this.btnhuyHD.Text = "&Hủy ";
-            this.btnhuyHD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnhuyHD.UseVisualStyleBackColor = true;
-            this.btnhuyHD.Click += new System.EventHandler(this.btnhuyHD_Click);
-            // 
             // lvHoaDon
             // 
             this.lvHoaDon.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -488,7 +455,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btnThanhToan);
             this.panel2.Controls.Add(this.txttotal);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label17);
@@ -497,20 +463,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(688, 47);
             this.panel2.TabIndex = 41;
-            // 
-            // btnThanhToan
-            // 
-            this.btnThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThanhToan.Image = global::Tiện_lợi_01_.Properties.Resources.bank_bill_finance_invoice_money_payment_receipt_icon_123239;
-            this.btnThanhToan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThanhToan.Location = new System.Drawing.Point(342, 6);
-            this.btnThanhToan.Name = "btnThanhToan";
-            this.btnThanhToan.Size = new System.Drawing.Size(119, 29);
-            this.btnThanhToan.TabIndex = 16;
-            this.btnThanhToan.Text = "&ThanhToán ";
-            this.btnThanhToan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThanhToan.UseVisualStyleBackColor = true;
-            this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
             // txttotal
             // 
@@ -591,8 +543,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Button btndong;
-        private System.Windows.Forms.Button btnluuHD;
-        private System.Windows.Forms.Button btnhuyHD;
         private System.Windows.Forms.Button btntimkiemHD;
         private System.Windows.Forms.ListView lvHoaDon;
         private System.Windows.Forms.ColumnHeader clTenhang;
@@ -611,7 +561,6 @@
         private System.Windows.Forms.TextBox txttotal;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button btnThanhToan;
         private System.Windows.Forms.ColumnHeader clTENKH;
         private System.Windows.Forms.Button btnthemHD;
         private System.Windows.Forms.TextBox txtthanhtien;
